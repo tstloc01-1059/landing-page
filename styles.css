@@ -104,21 +104,45 @@ ul {
     align-items: centre;
     flex: wrap;
     flex-direction: column;
+    margin: 100px;
 }
 
-#block2 .titl2 {
-
+#block2 .title2 {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
 }
 
-#blaock2 .cards {
+#block2 .cards {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
+
+}
+
+#block2 .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 175px;
+}
+
+#block2 .text {
+    text-align: center;
+    margin: 20px;
 }
 
 #block2 img {
     max-width: 175px;
     max-height: 175px;
+    border-radius: 20px;
+    border-color: lime;
+    border: 10px;
 }
 
 #block3 {
