@@ -44,14 +44,19 @@ ul {
 #header .logo {
     font-size: 25px;
     font-weight: bold;
-    padding-left: 400px;
+    flex-shrink: 1;
+    justify-content: left;
+    padding-left: 10px;
     color: lightcoral;
+    /* min-width: 200px; */
 }
 
 .menu {
     display: flex;
+    flex-shrink: 1;
     gap: 3vh;
-    padding-right: 400px;
+    min-width: 0;
+    padding-right: 10px;
 
 }
 
@@ -123,6 +128,7 @@ ul {
     justify-content: center;
     /* align-items: center; */
     gap: 50px;
+    flex-wrap: wrap;
 
 }
 
