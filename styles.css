@@ -44,14 +44,14 @@ ul {
 #header .logo {
     font-size: 25px;
     font-weight: bold;
-    padding-left: 1vh;
+    padding-left: 400px;
     color: lightcoral;
 }
 
 .menu {
     display: flex;
     gap: 3vh;
-    padding-right: 1vh;
+    padding-right: 400px;
 
 }
 
@@ -65,7 +65,8 @@ ul {
 }
 
 #block1 .block1-text {
-    max-width: 50vh;
+    max-width: 600px;
+    color: white;
 }
 
 #block1 .title1 {
@@ -76,7 +77,8 @@ ul {
 
 #block1 img {
     max-height: 250px;
-    max-width: 400px;
+    max-width: 500px;
+        object-fit: cover;
 }
 
 .signup {
@@ -89,7 +91,7 @@ ul {
 }
 
 .signup.top {
-    margin-top: 10px;
+    margin-top: 20px;
     border: none;
 }
 
@@ -113,36 +115,34 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding-bottom: 75px;
 }
 
 #block2 .cards {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     gap: 50px;
 
 }
 
 #block2 .card {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-start;
+    align-items:center;
     flex-direction: column;
-    max-width: 175px;
 }
 
 #block2 .text {
     text-align: center;
     margin: 20px;
+    max-width: 175px;
 }
 
 #block2 img {
     max-width: 175px;
     max-height: 175px;
     border-radius: 20px;
-    border-color: lime;
-    border: 10px;
 }
 
 #block3 {
@@ -156,8 +156,9 @@ ul {
 
 #block3 .quote {
     font-size: 25px;
-    max-width: 60vh;
+    max-width: 700px;
     font-style: italic;
+    text-align: center;
 }
 
 #block4 {
